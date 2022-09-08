@@ -1,3 +1,6 @@
 just create a .sh file with the command you want to run (can just rename .xprofile) 
 and then he makes a binding in i3 to run that file like
 bindsym $mod-Shift-s exec --no-startup-id /home/...pathtofile
+
+to turn off display do
+xrandr --output outputNameFoundDoingXrandr --off
